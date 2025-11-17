@@ -15,7 +15,9 @@ class FootballAnalystApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       theme: ThemeData.dark().copyWith(
         primaryColor: Colors.blue[800],
+
         scaffoldBackgroundColor: Colors.grey[900],
+
         cardTheme: CardThemeData(
           elevation: 4,
           shape: RoundedRectangleBorder(
